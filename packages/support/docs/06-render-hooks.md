@@ -55,6 +55,14 @@ FilamentView::registerRenderHook(
 - `panels::page.start` - Start of the page content container, also [can be scoped](#scoping-render-hooks) to the page or resource class
 - `panels::resource.pages.list-records.table.after` - After the resource table, also [can be scoped](#scoping-render-hooks) to the page or resource class
 - `panels::resource.pages.list-records.table.before` - Before the resource table, also [can be scoped](#scoping-render-hooks) to the page or resource class
+- `panels::resource.pages.list-records.table.toolbar.reorder.start` - The start of the reorder action in the table toolbar, also [can be scoped](#scoping-render-hooks) to the page or resource class
+- `panels::resource.pages.list-records.table.toolbar.actions.start` - The start of the bulkactions in the table toolbar, also [can be scoped](#scoping-render-hooks) to the page or resource class
+- `panels::resource.pages.list-records.table.toolbar.actions.end` - The end of the bulkactions in the table toolbar, also [can be scoped](#scoping-render-hooks) to the page or resource class
+- `panels::resource.pages.list-records.table.toolbar.groups.end` - The end of the groups action in the table toolbar, also [can be scoped](#scoping-render-hooks) to the page or resource class
+- `panels::resource.pages.list-records.table.toolbar.search.start` - The start of the search in the table toolbar, also [can be scoped](#scoping-render-hooks) to the page or resource class
+- `panels::resource.pages.list-records.table.toolbar.search.end` - The end of the search in the table toolbar, also [can be scoped](#scoping-render-hooks) to the page or resource class
+- `panels::resource.pages.list-records.table.toolbar.column-toggle.start` - The start of the column toggle in the table toolbar (or the end of the filters action), also [can be scoped](#scoping-render-hooks) to the page or resource class
+- `panels::resource.pages.list-records.table.toolbar.column-toggle.end` - The end of the column toggle in the table toolbar, also [can be scoped](#scoping-render-hooks) to the page or resource class
 - `panels::resource.pages.list-records.tabs.end` - The end of the filter tabs (after the last tab), also [can be scoped](#scoping-render-hooks) to the page or resource class
 - `panels::resource.pages.list-records.tabs.start` - The start of the filter tabs (before the first tab), also [can be scoped](#scoping-render-hooks) to the page or resource class
 - `panels::resource.relation-manager.after` - After the relation manager table, also [can be scoped](#scoping-render-hooks) to the page or relation manager class
